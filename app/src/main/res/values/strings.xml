@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyAppLearn</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="listtest">ListView Test</string>
+    <string name="colortest">Color Test</string>
+    <string name="inputtext">Input Test</string>
+    <string name="volleytest">Volley Test</string>
+
+</resources>
