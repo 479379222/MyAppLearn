@@ -14,6 +14,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
@@ -23,7 +25,7 @@ public class VolleyActivity extends AppCompatActivity {
 
     private EditText editText;
     private Button btnWeather;
-    private TextView txtViewWeather;
+    private TextView txtViewWeather,txtViewCity,txtViewWendu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +51,17 @@ public class VolleyActivity extends AppCompatActivity {
                 JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, URL, null, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject jsonObject) {
-                        txtViewWeather.setText(jsonObject.toString());
+                        //txtViewWeather.setText(jsonObject.toString());
+                        try {
+                            String jsoncontent=jsonObject.getString("result");
+                            //JSONObject result=new JSONObject(jsoncontent);
+                            JSONArray array=new JSONArray(jsoncontent);
+                            JSONObject jsonObjectSon= (JSONObject) array.opt(0);
+                            txtViewCity.setText("城市："+jsonObjectSon.getString("city"));
+                            txtViewWendu.setText("温度："+jsonObjectSon.getString("temperature"));
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
                     }
                 }, new Response.ErrorListener() {
                     @Override
@@ -67,5 +79,7 @@ public class VolleyActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText4);
         btnWeather = (Button) findViewById(R.id.btnWeather);
         txtViewWeather = (TextView) findViewById(R.id.txtViewWeather);
+        txtViewCity=(TextView)findViewById(R.id.txtViewCity);
+        txtViewWendu=(TextView)findViewById(R.id.txtViewWendu);
     }
 }
