@@ -2,8 +2,11 @@ package com.example.jason.myapplearn;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -29,6 +32,12 @@ public class CircleimageActivity extends AppCompatActivity {
         });
 
         circleimageview.setAdapter(adapter);
+        circleimageview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(CircleimageActivity.this,getData().get(position).get("title").toString(),Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void initView(){
