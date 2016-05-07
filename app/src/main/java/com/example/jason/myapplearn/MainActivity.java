@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.colortest, ColorActivity.class),
             new SampleConfig(R.string.inputtext,InputActivity.class),
             new SampleConfig(R.string.volleytest,VolleyActivity.class),
-            new SampleConfig(R.string.circleimage,CircleimageActivity.class)
+            new SampleConfig(R.string.circleimage,CircleimageActivity.class),
+            new SampleConfig(R.string.userinfo,UserActivity.class)
     };
 
     @Override
