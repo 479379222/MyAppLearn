@@ -46,8 +46,9 @@
         android:background="#000000" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView"
         android:orientation="vertical"
@@ -68,9 +69,10 @@
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="46dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/textview_border"
             android:gravity="center_vertical"
             android:padding="10dp"
             android:singleLine="true"
@@ -101,10 +103,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
+                android:layout_weight="1"
                 android:background="@color/colorred500"
                 android:gravity="center_vertical"
                 android:padding="10dp"
-                android:layout_weight="1"
                 android:text="Whats your deadline?"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
@@ -113,9 +115,21 @@
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-android:paddingRight="10dp"
                 android:layout_gravity="center_vertical"
+                android:paddingRight="10dp"
+
                 android:src="@mipmap/ic_done_white_18dp" />
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Card"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
