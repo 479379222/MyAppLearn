@@ -17,11 +17,12 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/circleUser"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_centerInParent="true"
             android:src="@mipmap/mayun"
-            app:civ_border_color="@color/light" />
+            app:civ_border_color="@color/light"
+            app:civ_border_width="3dp" />
 
         <TextView
             android:id="@+id/textView15"
@@ -37,17 +38,84 @@
 
     </RelativeLayout>
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:background="#000000" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_alignStart="@+id/relativeLayout"
-        android:layout_below="@+id/relativeLayout"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="用户订单" />
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorred500"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Welcome message"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="Whats your deadline?"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorred500"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Whats your deadline?"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorred500"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorred500"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:text="Whats your deadline?"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:paddingRight="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ic_done_white_18dp" />
+        </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
