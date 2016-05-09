@@ -16,6 +16,7 @@ public class BaseActivity extends AppCompatActivity {
 
         ActionBar ab=this.getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
+
     }
 
     @Override
