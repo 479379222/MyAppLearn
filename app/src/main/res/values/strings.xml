@@ -6,5 +6,7 @@
     <string name="colortest">Color Test</string>
     <string name="inputtext">Input Test</string>
     <string name="volleytest">Volley Test</string>
+    <string name="circleimage">Circle Image</string>
+    <string name="userinfo">User Info</string>
 
 </resources>
