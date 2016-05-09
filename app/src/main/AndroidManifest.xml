@@ -30,7 +30,8 @@
         <activity android:name=".InputActivity" />
         <activity android:name=".VolleyActivity" />
         <activity android:name=".ImageActivity" />
-        <activity android:name=".view.ZxingActivity"></activity>
+        <activity android:name=".view.ZxingActivity" />
+        <activity android:name=".view.DownloadmanagerActivity"></activity>
     </application>
 
 </manifest>
