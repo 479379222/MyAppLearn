@@ -29,7 +29,8 @@
         <activity android:name=".ColorActivity" />
         <activity android:name=".InputActivity" />
         <activity android:name=".VolleyActivity" />
-        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".view.ZxingActivity"></activity>
     </application>
 
 </manifest>
