@@ -28,9 +28,7 @@
         <activity android:name=".ListActivity" />
         <activity android:name=".ColorActivity" />
         <activity android:name=".InputActivity" />
-        <activity android:name=".VolleyActivity" />
-        <activity android:name=".CircleimageActivity" />
-        <activity android:name=".UserActivity"></activity>
+        <activity android:name=".VolleyActivity"></activity>
     </application>
 
 </manifest>
