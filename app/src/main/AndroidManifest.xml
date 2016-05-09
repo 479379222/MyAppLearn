@@ -28,7 +28,8 @@
         <activity android:name=".ListActivity" />
         <activity android:name=".ColorActivity" />
         <activity android:name=".InputActivity" />
-        <activity android:name=".VolleyActivity"></activity>
+        <activity android:name=".VolleyActivity" />
+        <activity android:name=".ImageActivity"></activity>
     </application>
 
 </manifest>
