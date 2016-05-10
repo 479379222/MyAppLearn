@@ -10,4 +10,6 @@
     <string name="userinfo">User Info</string>
     <string name="Zxing">Zxing test</string>
 
+    <string name="scan_text">Scan Test</string>
+
 </resources>
