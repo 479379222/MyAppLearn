@@ -36,8 +36,9 @@
         <activity android:name=".VolleyActivity" />
         <activity android:name=".CircleimageActivity" />
         <activity android:name=".UserActivity" />
-        <activity android:name=".view.ZxingActivity"></activity>
-        <activity android:name=".view.DownloadmanagerActivity"></activity>
+        <activity android:name=".view.ZxingActivity" />
+        <activity android:name=".view.DownloadmanagerActivity" />
+        <activity android:name=".view.RegisterActivity"></activity>
     </application>
 
 </manifest>

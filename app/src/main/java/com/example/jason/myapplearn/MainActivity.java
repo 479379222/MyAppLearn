@@ -15,6 +15,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import com.example.jason.myapplearn.view.DownloadmanagerActivity;
+import com.example.jason.myapplearn.view.RegisterActivity;
 import com.example.jason.myapplearn.view.ZxingActivity;
 
 import java.util.ArrayList;
@@ -29,13 +30,13 @@ public class MainActivity extends AppCompatActivity {
     private SampleConfig[] sampleConfigs = new SampleConfig[]{
             new SampleConfig(R.string.listtest, ListActivity.class),
             new SampleConfig(R.string.colortest, ColorActivity.class),
-            new SampleConfig(R.string.inputtext,InputActivity.class),
-            new SampleConfig(R.string.volleytest,VolleyActivity.class),
-            new SampleConfig(R.string.circleimage,CircleimageActivity.class),
-            new SampleConfig(R.string.userinfo,UserActivity.class),
+            new SampleConfig(R.string.inputtext, InputActivity.class),
+            new SampleConfig(R.string.volleytest, VolleyActivity.class),
+            new SampleConfig(R.string.circleimage, CircleimageActivity.class),
+            new SampleConfig(R.string.userinfo, UserActivity.class),
             new SampleConfig(R.string.Zxing, ZxingActivity.class),
-            new SampleConfig(R.string.Downloadmanager, DownloadmanagerActivity.class)
-
+            new SampleConfig(R.string.Downloadmanager, DownloadmanagerActivity.class),
+            new SampleConfig(R.string.RegisterLayout, RegisterActivity.class)
     };
 
     @Override
