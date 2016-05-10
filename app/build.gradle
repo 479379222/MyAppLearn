@@ -26,4 +26,5 @@ dependencies {
     compile 'com.android.support:design:23.3.0'
     compile project(':circleimageview')
     compile files('libs/volley.jar')
+    compile files('libs/zxing-1.6.jar')
 }

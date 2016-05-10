@@ -14,6 +14,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.example.jason.myapplearn.view.ZxingActivity;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -29,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.inputtext,InputActivity.class),
             new SampleConfig(R.string.volleytest,VolleyActivity.class),
             new SampleConfig(R.string.circleimage,CircleimageActivity.class),
-            new SampleConfig(R.string.userinfo,UserActivity.class)
+            new SampleConfig(R.string.userinfo,UserActivity.class),
+            new SampleConfig(R.string.Zxing, ZxingActivity.class)
     };
 
     @Override
