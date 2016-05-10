@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\AndroidStudio\MyAppLearn\circleimageview\src\main\assets"/><source path="E:\AndroidStudio\MyAppLearn\circleimageview\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\AndroidStudio\MyAppLearn\circleimageview\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\ASWorkspace\MyAppLearn\circleimageview\src\main\assets"/><source path="D:\ASWorkspace\MyAppLearn\circleimageview\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\ASWorkspace\MyAppLearn\circleimageview\src\debug\assets"/></dataSet></merger>

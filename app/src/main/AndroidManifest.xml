@@ -36,7 +36,7 @@
         <activity android:name=".VolleyActivity" />
         <activity android:name=".CircleimageActivity" />
         <activity android:name=".UserActivity" />
-        <activity android:name=".view.CaptureActivity"></activity>
+        <activity android:name=".view.ZxingActivity"></activity>
     </application>
 
 </manifest>
