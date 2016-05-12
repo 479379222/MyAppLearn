@@ -16,6 +16,7 @@ import android.widget.SimpleAdapter;
 
 import com.example.jason.myapplearn.view.DownloadmanagerActivity;
 import com.example.jason.myapplearn.view.RegisterActivity;
+import com.example.jason.myapplearn.view.SqliteActivity;
 import com.example.jason.myapplearn.view.ZxingActivity;
 
 import java.util.ArrayList;
@@ -36,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.userinfo, UserActivity.class),
             new SampleConfig(R.string.Zxing, ZxingActivity.class),
             new SampleConfig(R.string.Downloadmanager, DownloadmanagerActivity.class),
-            new SampleConfig(R.string.RegisterLayout, RegisterActivity.class)
+            new SampleConfig(R.string.RegisterLayout, RegisterActivity.class),
+            new SampleConfig(R.string.SqliteTest, SqliteActivity.class)
     };
 
     @Override

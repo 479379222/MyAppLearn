@@ -1,1 +1,1 @@
-include ':app', ':circleimageview', ':zxinglib'
+include ':app', ':circleimageview', ':zxinglib', ':xutils'
