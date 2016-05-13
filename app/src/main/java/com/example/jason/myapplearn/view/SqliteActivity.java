@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 import com.example.jason.myapplearn.R;
 import com.example.jason.myapplearn.entity.Person;
-import com.example.jason.myapplearn.utils.SQLiteUtils;
 import com.example.jason.myapplearn.utils.ToastUtils;
 
 public class SqliteActivity extends AppCompatActivity {
