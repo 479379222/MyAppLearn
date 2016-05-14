@@ -42,6 +42,8 @@ public class ZxingActivity extends AppCompatActivity {
                 //打开扫描界面扫描条形码或二维码
                 Intent openCameraIntent = new Intent(ZxingActivity.this, CaptureActivity.class);
                 startActivityForResult(openCameraIntent, 0);
+
+
             }
         });
 
