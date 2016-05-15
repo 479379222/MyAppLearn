@@ -67,7 +67,7 @@ public class SqliteActivity extends AppCompatActivity {
                 //关闭当前数据库
                 db.close();
 
-                ToastUtils.showLong(SqliteActivity.this,"Sqlite test!");
+                ToastUtils.showLong(SqliteActivity.this,"Sqlite test,行数：!"+c.getCount());
 
             }
         });

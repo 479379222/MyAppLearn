@@ -40,7 +40,8 @@
         <activity android:name=".view.ZxingActivity" />
         <activity android:name=".view.DownloadmanagerActivity" />
         <activity android:name=".view.RegisterActivity" />
-        <activity android:name=".view.SqliteActivity"></activity>
+        <activity android:name=".view.SqliteActivity" />
+        <activity android:name=".view.PtrActivity"></activity>
     </application>
 
 </manifest>

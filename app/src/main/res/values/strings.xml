@@ -12,6 +12,7 @@
     <string name="Downloadmanager">Download Manager</string>
     <string name="RegisterLayout">Register Layout</string>
     <string name="SqliteTest">Sqlite Test</string>
+    <string name="UltralPtr">Ultra Pull To Refresh</string>
 
     <string name="scan_text">Scan Test</string>
 
