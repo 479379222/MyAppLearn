@@ -27,4 +27,5 @@ dependencies {
     compile project(':circleimageview')
     compile files('libs/volley.jar')
     compile project(':zxinglib')
+    compile project(':ptr-lib')
 }
