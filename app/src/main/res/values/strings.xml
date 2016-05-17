@@ -15,12 +15,17 @@
     <string name="UltralPtr">Ultra Pull To Refresh</string>
     <string name="Drawerlayout">Drawer Layout Test</string>
     <string name="Toolbar">ActionBar Test</string>
+    <string name="Bottom">Bottom Toolbar</string>
 
     <string name="scan_text">Scan Test</string>
-
 
     <string name="drawer_open">Drawer Open</string>
     <string name="drawer_close">Drawer Close</string>
     <string name="app_not_available">App not available</string>
 
+    <string name="bottom_home">首页</string>
+    <string name="bottom_layalty">活动</string>
+    <string name="bottom_page">分类</string>
+    <string name="bottom_shopping">购物车</string>
+    <string name="bottom_person">我的</string>
 </resources>
