@@ -41,7 +41,11 @@
         <activity android:name=".view.DownloadmanagerActivity" />
         <activity android:name=".view.RegisterActivity" />
         <activity android:name=".view.SqliteActivity" />
-        <activity android:name=".view.PtrActivity"></activity>
+        <activity android:name=".view.PtrActivity" />
+        <activity
+            android:name=".view.DrawerlayoutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ToolbarActivity"></activity>
     </application>
 
 </manifest>

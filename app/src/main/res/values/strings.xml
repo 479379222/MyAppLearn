@@ -13,7 +13,14 @@
     <string name="RegisterLayout">Register Layout</string>
     <string name="SqliteTest">Sqlite Test</string>
     <string name="UltralPtr">Ultra Pull To Refresh</string>
+    <string name="Drawerlayout">Drawer Layout Test</string>
+    <string name="Toolbar">ActionBar Test</string>
 
     <string name="scan_text">Scan Test</string>
+
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="app_not_available">App not available</string>
 
 </resources>

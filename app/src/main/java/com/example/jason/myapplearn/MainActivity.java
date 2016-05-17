@@ -12,19 +12,16 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 
 import com.example.jason.myapplearn.view.DownloadmanagerActivity;
+import com.example.jason.myapplearn.view.DrawerlayoutActivity;
 import com.example.jason.myapplearn.view.PtrActivity;
 import com.example.jason.myapplearn.view.RegisterActivity;
 import com.example.jason.myapplearn.view.SqliteActivity;
 import com.example.jason.myapplearn.view.ZxingActivity;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,7 +37,9 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.Downloadmanager, DownloadmanagerActivity.class),
             new SampleConfig(R.string.RegisterLayout, RegisterActivity.class),
             new SampleConfig(R.string.SqliteTest, SqliteActivity.class),
-            new SampleConfig(R.string.UltralPtr, PtrActivity.class)
+            new SampleConfig(R.string.UltralPtr, PtrActivity.class),
+            new SampleConfig(R.string.Drawerlayout,DrawerlayoutActivity.class),
+            new SampleConfig(R.string.Toolbar,ToolbarActivity.class)
     };
 
     @Override

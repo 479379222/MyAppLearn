@@ -3,6 +3,8 @@ package com.example.jason.myapplearn.view;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.example.jason.myapplearn.R;
 import com.example.jason.myapplearn.utils.ToastUtils;
@@ -15,6 +17,11 @@ import in.srain.cube.views.ptr.PtrHandler;
 public class PtrActivity extends AppCompatActivity {
 
     private PtrClassicFrameLayout mPtrFrame;
+    private ListView lvView;
+    private static final String[] strs = new String[] {
+        "first", "second", "third", "fourth", "fifth"};
+
+    private View header;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +34,7 @@ public class PtrActivity extends AppCompatActivity {
             @Override
             public void onRefreshBegin(PtrFrameLayout frame) {
                 updateData();
+                mPtrFrame.refreshComplete();
             }
 
             @Override
@@ -53,6 +61,8 @@ public class PtrActivity extends AppCompatActivity {
     }
 
     private void updateData(){
-        ToastUtils.showLong(PtrActivity.this,"下拉刷新!");
+        lvView=(ListView)findViewById(R.id.rotate_header_list_view);
+        lvView.setAdapter(new ArrayAdapter<String>(PtrActivity.this,android.R.layout.simple_expandable_list_item_1,strs));
+
     }
 }
