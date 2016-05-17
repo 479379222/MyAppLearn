@@ -19,7 +19,7 @@
             android:layout_centerHorizontal="true"
             android:focusable="false"
             android:scaleType="centerInside"
-            android:src="@mipmap/ic_home_white_36dp" />
+            android:src="@mipmap/ic_loyalty_white_36dp" />
         <TextView
             android:id="@+id/tv_weixin"
             android:layout_width="wrap_content"
@@ -127,7 +127,7 @@
             android:layout_centerHorizontal="true"
             android:focusable="false"
             android:scaleType="centerInside"
-            android:src="@mipmap/ic_person_outline_white_36dp" />
+            android:src="@mipmap/ic_loyalty_white_36dp" />
         <TextView
             android:id="@+id/tv_weixin4"
             android:layout_width="wrap_content"

@@ -15,7 +15,7 @@ import android.widget.ListView;
 
 import com.example.jason.myapplearn.view.BottomActivity;
 import com.example.jason.myapplearn.view.DownloadmanagerActivity;
-import com.example.jason.myapplearn.view.DrawerlayoutActivity;
+//import com.example.jason.myapplearn.view.DrawerlayoutActivity;
 import com.example.jason.myapplearn.view.PtrActivity;
 import com.example.jason.myapplearn.view.RegisterActivity;
 import com.example.jason.myapplearn.view.SqliteActivity;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.RegisterLayout, RegisterActivity.class),
             new SampleConfig(R.string.SqliteTest, SqliteActivity.class),
             new SampleConfig(R.string.UltralPtr, PtrActivity.class),
-            new SampleConfig(R.string.Drawerlayout,DrawerlayoutActivity.class),
+            //new SampleConfig(R.string.Drawerlayout,DrawerlayoutActivity.class),
             new SampleConfig(R.string.Toolbar,ToolbarActivity.class),
             new SampleConfig(R.string.Bottom,BottomActivity.class)
     };
