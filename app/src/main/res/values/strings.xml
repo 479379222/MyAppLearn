@@ -16,6 +16,7 @@
     <string name="Drawerlayout">Drawer Layout Test</string>
     <string name="Toolbar">ActionBar Test</string>
     <string name="Bottom">Bottom Toolbar</string>
+    <string name="RedActionbar">Red ActionBar</string>
 
     <string name="scan_text">Scan Test</string>
 

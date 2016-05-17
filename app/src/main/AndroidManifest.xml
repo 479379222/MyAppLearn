@@ -50,8 +50,10 @@
         <activity android:name=".ToolbarActivity" />
         <activity
             android:name=".view.BottomActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            ></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.ReactionbarActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
