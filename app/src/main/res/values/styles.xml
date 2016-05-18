@@ -30,4 +30,5 @@
     <style name="textview_style">
         <item name="android:layout_marginTop">10dp</item>
     </style>
+
 </resources>
