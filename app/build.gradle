@@ -28,4 +28,5 @@ dependencies {
     compile files('libs/volley.jar')
     compile project(':zxinglib')
     compile project(':ptr-lib')
+    compile files('libs/universal-image-loader-1.8.6-with-sources.jar')
 }
