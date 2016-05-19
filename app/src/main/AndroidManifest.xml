@@ -57,7 +57,8 @@
         <activity android:name=".view.VersionUpdateActivity" />
         <activity android:name=".view.BannerActivity" />
         <activity android:name=".view.StarActivity" />
-        <activity android:name=".view.ProgressDialogActivity"></activity>
+        <activity android:name=".view.ProgressDialogActivity" />
+        <activity android:name=".view.LoadingActivity"></activity>
     </application>
 
 </manifest>

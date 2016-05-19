@@ -18,6 +18,8 @@ import com.example.jason.myapplearn.view.BannerActivity;
 import com.example.jason.myapplearn.view.BottomActivity;
 import com.example.jason.myapplearn.view.DownloadmanagerActivity;
 import com.example.jason.myapplearn.view.DrawerlayoutActivity;
+import com.example.jason.myapplearn.view.LoadingActivity;
+import com.example.jason.myapplearn.view.ProgressDialogActivity;
 import com.example.jason.myapplearn.view.PtrActivity;
 import com.example.jason.myapplearn.view.ReactionbarActivity;
 import com.example.jason.myapplearn.view.RegisterActivity;
@@ -51,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.VersionUpdate, VersionUpdateActivity.class),
             new SampleConfig(R.string.Banner, BannerActivity.class),
             new SampleConfig(R.string.Star, StarActivity.class),
-            new SampleConfig(R.string.ProgressDialog, ProgressDialog.class)
+            new SampleConfig(R.string.ProgressDialog, ProgressDialogActivity.class),
+            new SampleConfig(R.string.Loading, LoadingActivity.class)
     };
 
     @Override
