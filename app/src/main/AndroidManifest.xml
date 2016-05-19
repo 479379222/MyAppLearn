@@ -53,7 +53,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view.ReactionbarActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.VersionUpdateActivity" />
+        <activity android:name=".view.BannerActivity" />
+        <activity android:name=".view.StarActivity"></activity>
     </application>
 
 </manifest>

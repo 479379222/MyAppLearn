@@ -39,6 +39,8 @@ public class BottomActivity extends AppCompatActivity {
         View v = inflater.inflate(R.layout.fragment_index,null);
         fragment_container.addView(v);
 
+
+
     }
 
     private void initView() {
