@@ -56,7 +56,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".view.VersionUpdateActivity" />
         <activity android:name=".view.BannerActivity" />
-        <activity android:name=".view.StarActivity"></activity>
+        <activity android:name=".view.StarActivity" />
+        <activity android:name=".view.ProgressDialogActivity"></activity>
     </application>
 
 </manifest>

@@ -20,6 +20,7 @@
     <string name="VersionUpdate">Version Update</string>
     <string name="Banner">Banner learn</string>
     <string name="Star">Star Test</string>
+    <string name="ProgressDialog">Progress Dialog</string>
 
     <string name="scan_text">Scan Test</string>
 

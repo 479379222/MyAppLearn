@@ -1,5 +1,6 @@
 package com.example.jason.myapplearn;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -49,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.RedActionbar, ReactionbarActivity.class),
             new SampleConfig(R.string.VersionUpdate, VersionUpdateActivity.class),
             new SampleConfig(R.string.Banner, BannerActivity.class),
-            new SampleConfig(R.string.Star, StarActivity.class)
+            new SampleConfig(R.string.Star, StarActivity.class),
+            new SampleConfig(R.string.ProgressDialog, ProgressDialog.class)
     };
 
     @Override
