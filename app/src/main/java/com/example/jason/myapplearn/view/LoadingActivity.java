@@ -1,5 +1,6 @@
 package com.example.jason.myapplearn.view;
 
+import android.app.ProgressDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,7 +41,7 @@ public class LoadingActivity extends AppCompatActivity {
     }
 
     public void mobiletest(View v){
-        CustomProgressDialog dialog =new CustomProgressDialog(this, "正在加载中",R.drawable.xinhao);
+        CustomProgressDialog dialog =new CustomProgressDialog(this, "正在加载中",R.anim.frame3);
         dialog.show();
     }
 }
