@@ -1,5 +1,6 @@
 package com.example.jason.myapplearn.dialog;
 
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
@@ -12,7 +13,7 @@ import com.example.jason.myapplearn.R;
 /**
  * Created by jason on 2016/5/19.
  */
-public class CustomProgressDialog extends ProgressDialog {
+public class CustomProgressDialog extends Dialog {
     private AnimationDrawable mAnimation;
     private Context mContext;
     private ImageView mImageView;
@@ -22,8 +23,8 @@ public class CustomProgressDialog extends ProgressDialog {
     private String oldLoadingTip;
     private int mResid;
 
-    public CustomProgressDialog(Context context, String content, int id) {
-        super(context);
+    public CustomProgressDialog(Context context, String content, int id,int theme) {
+        super(context,theme);
         this.mContext = context;
         this.mLoadingTip = content;
         this.mResid = id;

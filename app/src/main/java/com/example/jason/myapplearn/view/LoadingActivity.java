@@ -27,7 +27,7 @@ public class LoadingActivity extends AppCompatActivity {
      * @param v
      */
     public void showmeidialog(View v){
-        CustomProgressDialog dialog =new CustomProgressDialog(this, "正在加载中",R.anim.frame);
+        CustomProgressDialog dialog =new CustomProgressDialog(this, "正在加载中",R.anim.frame,R.style.customDialog);
         dialog.show();
         ToastUtils.showLong(LoadingActivity.this,"直通车");
     }
@@ -36,12 +36,12 @@ public class LoadingActivity extends AppCompatActivity {
      * @param v
      */
     public void showsfdialog(View v){
-        CustomProgressDialog dialog =new CustomProgressDialog(this, "正在加载中",R.anim.frame2);
+        CustomProgressDialog dialog =new CustomProgressDialog(this, "正在加载中",R.anim.frame2,R.style.customDialog);
         dialog.show();
     }
 
     public void mobiletest(View v){
-        CustomProgressDialog dialog =new CustomProgressDialog(this, "正在加载中",R.anim.frame3);
+        CustomProgressDialog dialog =new CustomProgressDialog(this, "正在加载中",R.anim.frame3,R.style.customDialog);
         dialog.show();
     }
 }
