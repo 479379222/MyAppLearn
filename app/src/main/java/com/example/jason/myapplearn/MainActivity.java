@@ -16,6 +16,7 @@ import android.widget.ListView;
 import com.example.jason.myapplearn.view.AnimationActivity;
 import com.example.jason.myapplearn.view.BannerActivity;
 import com.example.jason.myapplearn.view.BottomActivity;
+import com.example.jason.myapplearn.view.CornerActivity;
 import com.example.jason.myapplearn.view.DownloadmanagerActivity;
 import com.example.jason.myapplearn.view.DrawerlayoutActivity;
 import com.example.jason.myapplearn.view.LoadingActivity;
@@ -55,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.Star, StarActivity.class),
             new SampleConfig(R.string.ProgressDialog, ProgressDialogActivity.class),
             new SampleConfig(R.string.Loading, LoadingActivity.class),
-            new SampleConfig(R.string.Animation,AnimationActivity.class)
+            new SampleConfig(R.string.Animation,AnimationActivity.class),
+            new SampleConfig(R.string.Corner, CornerActivity.class)
     };
 
     @Override
