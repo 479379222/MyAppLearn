@@ -1,6 +1,5 @@
 package com.example.jason.myapplearn;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -14,6 +13,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.example.jason.myapplearn.view.AnimationActivity;
 import com.example.jason.myapplearn.view.BannerActivity;
 import com.example.jason.myapplearn.view.BottomActivity;
 import com.example.jason.myapplearn.view.DownloadmanagerActivity;
