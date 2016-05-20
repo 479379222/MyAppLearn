@@ -58,7 +58,8 @@
         <activity android:name=".view.BannerActivity" />
         <activity android:name=".view.StarActivity" />
         <activity android:name=".view.ProgressDialogActivity" />
-        <activity android:name=".view.LoadingActivity"></activity>
+        <activity android:name=".view.LoadingActivity" />
+        <activity android:name=".AnimationActivity"></activity>
     </application>
 
 </manifest>

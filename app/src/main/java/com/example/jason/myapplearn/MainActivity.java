@@ -54,7 +54,8 @@ public class MainActivity extends AppCompatActivity {
             new SampleConfig(R.string.Banner, BannerActivity.class),
             new SampleConfig(R.string.Star, StarActivity.class),
             new SampleConfig(R.string.ProgressDialog, ProgressDialogActivity.class),
-            new SampleConfig(R.string.Loading, LoadingActivity.class)
+            new SampleConfig(R.string.Loading, LoadingActivity.class),
+            new SampleConfig(R.string.Animation,AnimationActivity.class)
     };
 
     @Override
