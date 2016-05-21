@@ -31,9 +31,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ListActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ListActivity" />
         <activity android:name=".ColorActivity" />
         <activity android:name=".InputActivity" />
         <activity android:name=".VolleyActivity" />

@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ListActivity extends AppCompatActivity {
+public class ListActivity extends BaseActivity {
 
     private ListView lstView;
 
